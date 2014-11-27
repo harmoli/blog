@@ -26,7 +26,7 @@ page-template: post-template
                   <!-- <ul class="past"> -->
                 {% endif %}
               {% endunless %}
-                <li> <a href="{{ post.url }}">{{ post.title }}</a> <time>{{ post.date | date:"%b %d " }}</time></li>
+                <li> <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> <time>{{ post.date | date:"%b %d " }}</time></li>
             {% endfor %}
             <!-- </ul> --><br>
           </section>
