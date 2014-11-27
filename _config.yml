@@ -8,7 +8,7 @@ footer-links:
 baseurl: "/blog"
 markdown: kramdown
 highlighter: pygments
-permalink: /blog/:year/:month/:title.html
+permalink: /:year/:month/:title.html
 author: Harmony M Li
 authorurl: http://www.harmonymli.com
 exclude: [ "Gemfile", "Gemfile.lock", "README.md", 'sass', 'watch.sh', 'style.scss', 'CNAME' ]
