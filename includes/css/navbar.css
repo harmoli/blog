@@ -1,0 +1,83 @@
+@font-face {
+  font-family: Simplifica;
+  src: url(fonts/SIMPLIFICA/typeface.ttf);
+}
+
+.navbar {
+  position: fixed;
+  background-color: white;
+  height: 100px;
+  width: 100%;
+  top: 0%;
+  left: 0%;
+  opacity: 1.0;
+  z-index: 1000;
+}
+
+.navbar .harmonymli a{
+  text-transform: uppercase;
+  background-color: white;
+  color: #3d3d3d;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-size: 50px;
+  text-align: left;
+  position: relative;
+  float: left;
+  top:  50px;
+  left: 5%;
+}
+
+.navbar .nav {
+  background-color: white;
+  color: #3d3d3d;
+  font-family: 'Sintony', sans-serif;
+  font-size: 14px;
+  position: relative;
+  float: right;
+  top: 30px;
+  right: 5%;
+}
+
+.navbar .nav li {
+  background-color: white;
+  border-bottom: 2px solid transparent;
+  list-style: none;
+  display: inline-block;
+  padding: 10px 20px;
+  float: left;
+  -moz-transition: all 300ms ease-in-out 0s;
+  -ms-transition: all 300ms ease-in-out 0s;
+  -o-transition: all 300ms ease-in-out 0s;
+  -webkit-transition: all 300ms ease-in-out 0s;
+  transition: all 300ms ease-in-out 0s;
+}
+
+.navbar .nav li a {
+  border-bottom: 2px solid transparent;
+  display: block;
+  text-decoration: none;
+  color: #3d3d3d;
+  white-space: normal;
+  -moz-transition: color 450ms ease-in-out 0s, background-color 450ms ease-in-out 0s;
+  -ms-transition: color 450ms ease-in-out 0s, background-color 450ms ease-in-out 0s;
+  -o-transition: color 450ms ease-in-out 0s, background-color 450ms ease-in-out 0s;
+  -webkit-transition: color 450ms ease-in-out 0s, background-color 450ms ease-in-out 0s;
+  transition: color 450ms ease-in-out 0s, background-color 450ms ease-in-out 0s;
+}
+
+.navbar .nav li:hover, .nav a:hover, .nav li.active{
+  border-bottom: 2px solid #6FE6E8;
+  text-decoration: none;
+}
+
+.bbar {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 60px;
+  opacity: .8;
+  background-color: #6FE6E8; 
+  z-index: 1000;
+}

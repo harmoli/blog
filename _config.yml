@@ -1,0 +1,15 @@
+name : Graphics | Distributed | Simulation 
+description : A Technical Blog
+footer-links:
+  github: harmoli
+  twitter: harmo_li
+  email: harmoli@seas.upenn.edu
+#url: http://blog.harmonymli.com
+baseurl: "/blog"
+markdown: kramdown
+highlighter: pygments
+permalink: /:year/:month/:title.html
+author: Harmony M Li
+authorurl: http://www.harmonymli.com
+exclude: [ "Gemfile", "Gemfile.lock", "README.md", 'sass', 'watch.sh', 'style.scss', 'CNAME' ]
+paginate: 5

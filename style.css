@@ -1,0 +1,196 @@
+@font-face {
+  font-family: Simplifica;
+  src: url(fonts/SIMPLIFICA/typeface.ttf);
+}
+
+.navbar {
+  position: fixed;
+  background-color: white;
+  height: 100px;
+  text-align: center;
+  width: 100%;
+  top: 0%;
+  left: 0%;
+  opacity: 1.0;
+  z-index: 1000;
+  overflow:hidden;
+}
+
+.navbar .harmonymli a{
+  background-color: #56F3F5; 
+  color: white;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-size: 50px;
+  text-align: left;
+  position: relative;
+  float: left;
+  top:  30px;
+  left: 5%;
+  overflow:hidden;
+}
+
+.navbar .nav {
+  background-color: #56F3F5; 
+  color: white;
+  font-family: 'Sintony', sans-serif;
+  font-size: 14px;
+  position: relative;
+  float: right;
+  top: 30px;
+  right: 5%;
+  overflow:hidden;
+}
+
+.navbar .nav li {
+  background-color: #56F3F5;
+  border-bottom: 2px solid transparent;
+  list-style: none;
+  display: inline-block;
+  padding: 10px 20px;
+  float: left;
+  -moz-transition: all 300ms ease-in-out 0s;
+  -ms-transition: all 300ms ease-in-out 0s;
+  -o-transition: all 300ms ease-in-out 0s;
+  -webkit-transition: all 300ms ease-in-out 0s;
+  transition: all 300ms ease-in-out 0s;
+}
+
+.navbar .nav li a {
+  border-bottom: 2px solid transparent;
+  display: block;
+  text-decoration: none;
+  color: white;
+  white-space: normal;
+  -moz-transition: color 450ms ease-in-out 0s, background-color 450ms ease-in-out 0s;
+  -ms-transition: color 450ms ease-in-out 0s, background-color 450ms ease-in-out 0s;
+  -o-transition: color 450ms ease-in-out 0s, background-color 450ms ease-in-out 0s;
+  -webkit-transition: color 450ms ease-in-out 0s, background-color 450ms ease-in-out 0s;
+  transition: color 450ms ease-in-out 0s, background-color 450ms ease-in-out 0s;
+}
+
+.navbar .nav li:hover, .nav a:hover, .nav li.active{
+  border-bottom: 2px solid white;
+  text-decoration: none;
+}
+
+.headline {
+  clear: both;
+  font-family: 'Simplifica';
+  font-size: 125px;
+  text-align:center;
+  display: block;
+  margin: auto;
+  margin-top:20%
+  overflow: hidden;
+  line-height: 170px;
+  position: relative;
+  top: 250px;
+  height: 170px;
+  width: 1025px;
+  border-top: 15px double #9e9e9e;
+  border-bottom: 15px double #9e9e9e;
+}
+
+.circles {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+  text-align:center;
+  line-height: 75px;
+  position: relative;
+  height: 100px;
+  width: 260px;
+
+  font-family: 'Simplifica';
+  font-size: 24px;
+  color: white;
+}
+
+.headline .graphics{
+  color: #56F5CD;
+  float: left;
+}
+
+.circles #c1 {
+  background-color: #56f3cd;
+  float: left;
+  margin: auto 5px;
+ 
+  width: 75px;
+  height: 75px;
+  -moz-border-radius: 37px;
+  -webkit-border-radius: 37px;
+  border-radius: 37px;
+}
+
+.headline .distributed{
+  position: absolute;
+  left: 303px;
+  color: #F77486;
+  float: left;
+}
+
+.circles #ctitle {
+  background-color: #F77486;
+  float: left;
+  margin: auto 5px;
+
+  width: 75px;
+  height: 75px;
+  -moz-border-radius: 37px;
+  -webkit-border-radius: 37px;
+  border-radius: 37px;
+}
+
+.headline .simulation{
+  position: absolute;
+  left: 670px;
+  color: #56F3F5;
+  float: left;
+}
+
+.circles #c2 {
+  background-color: #56f3f5;
+  float: left;
+  margin: auto 5px;
+
+  width: 75px;
+  height: 75px;
+  -moz-border-radius: 37px;
+  -webkit-border-radius: 37px;
+  border-radius: 37px;
+}
+
+.bbar {
+  position: fixed;
+  bottom: 0%;
+  height: 60px;
+  width: 100%;
+  left: 0%;
+  background-color: #f55856;
+  opacity: .8;
+  z-index:1000;
+}
+
+.text {
+  clear: both;
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  width: 70%;
+  color: #3d3d3d;
+  padding: 25px;
+  z-index: 1000;
+}
+
+a {
+  color: #F77486;
+}
+
+.extrapad {
+  height: 100px;
+}

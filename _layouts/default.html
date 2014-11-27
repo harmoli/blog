@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+    <title>{{ site.name }} | {% if page.title %}{{ page.title }} {% endif %}</title>
+    <meta name="description" content="{{ site.description }}">
+    <meta name="author" content="{{ site.author }}">
+    <link rel="stylesheet" type="text/css" href="/includes/css/style.css">
+    <link href='http://fonts.googleapis.com/css?family=Raleway:500,600'
+    rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Sintony:400,700'
+    rel='stylesheet' type='text/css'>
+  </head>
+    <!-- Header nav bar -->
+    <div class="navbar">
+      <div class="harmonymli"><a href="{{ site.baseurl }}">{{ site.author }}</a></div>
+      <div class="nav">
+        <ul>
+          <li {% if page.title == "archive" %} class=active {% endif %}><a href="{{ site.baseurl }}/archive.html">archive</a></li>
+          <li {% if page.title == "about" %} class=active {% endif %}><a href="{{ site.baseurl }}/about.html">about</a></li>
+        </ul>
+    </div>
+  </div> 
+    <body class="{{page.page-template}}">
+    <div class="pagecontent">
+    {{ content }}
+    </div>
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="inner">
+        <section class="copyright">Copyright 2014 <a href="{{ site.authorurl }}">{{ site.author }}</a>.
+      </div>
+    </footer>
+  <div class="bbar">
+  </div>
+  </body>
+</html>
