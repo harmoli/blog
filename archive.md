@@ -1,7 +1,6 @@
 ---
-layout: default
+layout: post
 title: archive
-page-template: post-template
 ---
 <!-- Content
     ================================================== -->
