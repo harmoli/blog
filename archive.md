@@ -8,7 +8,7 @@ page-template: post-template
 <main class="content" role="main">
   <article class="post">
       <section class="archive">
-      <h2 class="post-title">Archive</h2>
+      <h2 class="post-title">archive</h2>
         <section class="post-content">
           <p>
             {%for post in site.posts %}
