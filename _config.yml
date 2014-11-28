@@ -4,7 +4,7 @@ footer-links:
   github: harmoli
   twitter: harmo_li
   email: harmoli@seas.upenn.edu
-#url: http://blog.harmonymli.com
+url: http://blog.harmonymli.com
 baseurl: "/blog"
 markdown: kramdown
 highlighter: pygments
