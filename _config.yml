@@ -11,5 +11,5 @@ highlighter: pygments
 permalink: /:year/:month/:title.html
 author: Harmony M Li
 authorurl: http://www.harmonymli.com
-exclude: [ "Gemfile", "Gemfile.lock", "README.md", 'sass', 'watch.sh', 'style.scss']
+exclude: [ "Gemfile", "Gemfile.lock", "README.md", 'sass', 'watch.sh', 'style.scss', 'CNAME']
 paginate: 5
