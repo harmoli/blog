@@ -8,7 +8,7 @@ page-template: post-template
 <main class="content" role="main">
   <article class="post">
       <section class="archive">
-      <h2 class="post-title">Archive</h2>
+      <h2 class="post-title">archive</h2>
         <section class="post-content">
           <p>
             {%for post in site.posts %}
@@ -26,7 +26,7 @@ page-template: post-template
                   <!-- <ul class="past"> -->
                 {% endif %}
               {% endunless %}
-                <li> <a href="{{ post.url }}">{{ post.title }}</a> <time>{{ post.date | date:"%b %d " }}</time></li>
+                <li> <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> <time>{{ post.date | date:"%b %d " }}</time></li>
             {% endfor %}
             <!-- </ul> --><br>
           </section>
