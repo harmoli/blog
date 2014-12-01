@@ -5,11 +5,11 @@ footer-links:
   twitter: harmo_li
   email: harmoli@seas.upenn.edu
 url: http://blog.harmonymli.com
-baseurl: "/"
+baseurl: "http://blog.harmonymli.com"
 markdown: kramdown
 highlighter: pygments
 permalink: /:year/:month/:title.html
 author: Harmony M Li
 authorurl: http://www.harmonymli.com
-exclude: [ "Gemfile", "Gemfile.lock", "README.md", 'sass', 'watch.sh', 'style.scss', 'CNAME' ]
+exclude: [ "Gemfile", "Gemfile.lock", "README.md", 'sass', 'watch.sh', 'style.scss']
 paginate: 5
