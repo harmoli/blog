@@ -19,7 +19,7 @@ customization and content delivery.  However, things start to go haywire once
 we attempt to configure Jekyll to work with subdomains or Github project
 pages.
 
-### Configuring username.github.io for an apex domain
+## Configuring username.github.io for an apex domain
 
 This is, perhaps, the most straight forward. Let's say you have an apex domain
 like example.com.  
@@ -34,7 +34,7 @@ addresses:
 
 or b) an ALIAS record that points to username.github.io.
 
-### Configuring username.github.io for a subdomain
+## Configuring username.github.io for a subdomain
 
 Like the former configuration, you will need to first add a CNAME file to your
 repository.  The contents will be the subdomain url.  For example,
@@ -46,14 +46,14 @@ username.github.io.
 
 DNS Provider: Add a CNAME record that points to `username.github.io` 
 
-### Configuring project pages for an apex domain
+## Configuring project pages for an apex domain
 
 Configuring project pages for an apex domain works similarly to configuring
 username.github.io for an apex domain.  Remember that the `gh-pages` branch is
 served as the webpage, whereas the rest of the branches are left untouched.  So
 everything you do must be committed to the `gh-pages` branch.
 
-### Configuring project pages for a subdomain
+## Configuring project pages for a subdomain
 
 Like configuring username.github.io for a subdomain, you will need to add a
 CNAME record on your GitHub repository and on your DNS provider.  If you
@@ -61,7 +61,7 @@ previously had your `baseurl` property set to the repository name such as
 `blog/`, make sure you change the `baseurl` to the new subdomain URL that you
 plan to use.  Otherwise, your content will not serve correctly.
 
-### Useful links:
+## Useful links:
 
 * [GitHub: Setting up a custom domain with GitHub Pages](https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages/)
 
@@ -71,7 +71,7 @@ plan to use.  Otherwise, your content will not serve correctly.
 
 * [GitHub: Troubleshooting custom domains](https://help.github.com/articles/my-custom-domain-isn-t-working/)
 
-### TIPS:
+## TIPS:
 
 * DNS settings take a while to propagate, you can check to see if they are pointing at the desired IP addresses by using the `dig` command (`dig username.github.io`)
 
