@@ -73,8 +73,8 @@ plan to use.  Otherwise, your content will not serve correctly.
 
 ## TIPS:
 
-* DNS settings take a while to propagate, you can check to see if they are pointing at the desired IP addresses by using the `dig` command (`dig username.github.io`)
+* DNS settings take a while to propagate, you can check to see if they are pointing at the desired IP addresses by using the dig command (`dig username.github.io`)
 
-* Project pages are served from the `gh-pages` branches, so make sure all your project website pages are commited to the `gh-pages` branch
+* Project pages are served from the `gh-pages` branches, so make sure all your project website pages are commited to the gh-pages branch
 
 Happy blogging!
