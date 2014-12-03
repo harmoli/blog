@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Blogging with Jekyll on Github: Setting Up Custom Domains
+tags: [Jekyll, GitHub pages, custom domains]
 author: Harmony M Li
-tags: [Jekyll, Github pages, configuration, custom domains, meta]
 ---
 Over the past week, I have been attempting to set up my Jekyll blog to be
 configured correctly.  While it is a bit meta to be blogging about how I got
