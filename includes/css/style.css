@@ -467,6 +467,7 @@ main.content {
     font-size: 2.5rem;
     margin:0 0 0rem 0;
     min-width: 300px;
+    text-transform: uppercase;
 }
 
 .post-excerpt p {
