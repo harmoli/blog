@@ -31,9 +31,6 @@ page-template: post-template
             <!-- </ul> --><br>
           </section>
         </p>
-      </section>
-  </article>
-</main>
 
 
       
