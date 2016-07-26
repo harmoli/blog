@@ -29,8 +29,6 @@ page-template: post-template
                 <li> <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> <time>{{ post.date | date:"%b %d " }}</time></li>
             {% endfor %}
             <!-- </ul> --><br>
-          </section>
-        </p>
 
 
       
